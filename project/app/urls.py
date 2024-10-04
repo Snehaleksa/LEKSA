@@ -9,5 +9,5 @@ urlpatterns = [
     path('getpost',views.GETAlPosts),
     path('update',views.UpdatePost),
     path('delete',views.DeletePost),
-    path('getpostbyid',views.getPostById),
+    path('getpostbyid',views.getPost),
 ]
